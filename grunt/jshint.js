@@ -2,5 +2,5 @@ module.exports = {
   options: {
     jshintrc: '.jshintrc'
   },
-  all: ['src/js/*.js']
+  all: ['<%= path.src %>js/*.js']
 };
