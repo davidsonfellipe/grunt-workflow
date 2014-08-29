@@ -6,9 +6,9 @@ module.exports = {
     },
     files: [{
       expand: true,
-      cwd: 'src/scss',
+      cwd: '<%= path.src %>scss',
       src: ['*.{scss,sass}'],
-      dest: 'build/css',
+      dest: '<%= path.dest %>css',
       ext: '.css'
     }]
   },
@@ -18,9 +18,9 @@ module.exports = {
     },
     files: [{
       expand: true,
-      cwd: 'src/scss',
+      cwd: '<%= path.src %>scss',
       src: ['*.{scss,sass}'],
-      dest: 'build/css',
+      dest: '<%= path.dest %>css',
       ext: '.css'
     }]
   }
