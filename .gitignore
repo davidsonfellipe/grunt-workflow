@@ -1,3 +1,6 @@
+# Not ignoring build because this is one demo project
+#build/
+
 # Logs
 logs
 *.log
