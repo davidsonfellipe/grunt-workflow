@@ -2,7 +2,7 @@
 module.exports = {
   scripts: {
       files: ['<%= path.src %>js/*.js', '<%= path.src %>scss/*.scss'],
-      tasks: ['newer:jshint', 'concat', 'newer:uglify', 'newer:sass'],
+      tasks: ['concurrent:join', 'concurrent:lint'],
       options: {
           nospawn: true,
           debounceDelay: 250,
