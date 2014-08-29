@@ -1,0 +1,9 @@
+default:
+  - 'watch'
+
+lint:
+  - 'concurrent:lint'
+
+optim:
+  - 'imagemin'
+  - 'uglify'

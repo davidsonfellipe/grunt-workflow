@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
   // load-grunt-config includes load-grunt-tasks
   require('load-grunt-config')(grunt, {
-    configPath: path.join(process.cwd(), 'grunt'),
+    configPath: path.join(process.cwd(), '_grunt'),
     data: { //data passed into config.  Can use with <%= test %>
       path: {
         src: 'src/',

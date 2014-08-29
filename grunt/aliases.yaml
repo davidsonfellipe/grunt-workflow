@@ -1,5 +1,0 @@
-default:
-  - 'watch'
-
-optimization:
-  - 'imagemin'
