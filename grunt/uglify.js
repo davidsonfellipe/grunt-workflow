@@ -1,7 +1,7 @@
 module.exports = {
   dist: {
     files: {
-      'build/js/all.min.js': ['build/js/all.js']
+      '<%= path.dest %>js/all.min.js': ['<%= path.dest %>js/all.js']
     }
   }
 };
