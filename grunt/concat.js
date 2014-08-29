@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: ['src/js/*.js'],
-    dest: 'build/js/all.js',
+    src: ['<%= path.src %>js/*.js'],
+    dest: '<%= path.dest %>js/all.js'
   }
 };
