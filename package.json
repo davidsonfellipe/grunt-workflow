@@ -1,7 +1,11 @@
 {
   "private": true,
+  "author": "Your Name <you.name@example.org>",
   "devDependencies": {
-    "grunt": "0.4.1",
-    "load-grunt-config": "^0.13.0"
+    "grunt": "latest",
+    "load-grunt-config": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-watch": "latest"
   }
 }
