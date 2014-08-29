@@ -5,9 +5,9 @@ module.exports = {
   dist: {
     files: [{
       expand: true,
-      cwd: 'src/img',
+      cwd: '<%= path.src %>img',
       src: '{,*/}*.{png,jpg,jpeg}',
-      dest: 'build/img'
+      dest: '<%= path.dest %>img'
       }]
   }
 };
