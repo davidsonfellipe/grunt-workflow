@@ -1,5 +1,5 @@
 # Not ignoring build because this is one demo project
-#build/
+build/
 
 # Logs
 logs
