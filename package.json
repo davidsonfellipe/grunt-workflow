@@ -4,6 +4,7 @@
   "devDependencies": {
     "grunt": "latest",
     "load-grunt-config": "latest",
+    "time-grunt": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-watch": "latest"
