@@ -14,7 +14,7 @@ please set one specific version to avoid breaking changes in your dependencies
 before upgrading.
 
 
-`
+```javascript
 {
   "private": true,
   "author": "Your Name <you.name@example.org>",
@@ -26,4 +26,22 @@ before upgrading.
     "grunt-contrib-watch": "latest"
   }
 }
-`
+```
+
+Structure:
+
+```bash
+.
+|── build/
+|── src/
+|   └── img/ (all imgs files)
+|   └── js/ (all js files)
+|   └── scss/ (all scss files)
+└── .csslintrc
+└── .editorconfig
+└── .gitignore
+└── .jshintrc
+└── Gruntfile.js
+└── package.json
+└── README.md
+```
