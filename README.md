@@ -1,5 +1,7 @@
 grunt-workflow
 ==============
+This is a DEMO for you start your project using Grunt, and currently watching and compiling Sass to CSS, watching/linting JS code and some other amazing things.
+
 
 ##Configure grunt
 
