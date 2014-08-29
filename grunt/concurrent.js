@@ -1,4 +1,4 @@
 module.exports = {
-  first: ['concat'],
-  second: ['uglify', 'imagemin']
+  join: ['newer:sass', 'newer:concat', 'newer:imagemin'],
+  lint: ['newer:jshint', 'newer:csslint']
 };
