@@ -3,10 +3,12 @@
   "author": "Your Name <you.name@example.org>",
   "devDependencies": {
     "grunt": "latest",
-    "load-grunt-config": "latest",
-    "time-grunt": "latest",
-    "grunt-contrib-uglify": "latest",
     "grunt-contrib-concat": "latest",
-    "grunt-contrib-watch": "latest"
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-newer": "^0.7.0",
+    "load-grunt-config": "latest",
+    "time-grunt": "latest"
   }
 }
