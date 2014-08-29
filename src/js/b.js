@@ -1,25 +1,21 @@
-/*global $:false, setTimeout:false, document:false, jQuery: false */
+(function (window) {
 
-(function (window, $) {
+  "use strict";
 
-    "use strict";
+  var BAnIncrediblyLargeClassName = function (options) {
 
-    anIncrediblyLargeClassName
+    this.options = options;
 
-    var BAnIncrediblyLargeClassName = function (options) {
+  };
 
-        this.options = options;
+  BAnIncrediblyLargeClassName.prototype.init = function() {
 
-    };
+    var anIncrediblyLargeVariableName = 0;
 
-    BAnIncrediblyLargeClassName.prototype.init = function() {
+    return anIncrediblyLargeVariableName++;
 
-        var anIncrediblyLargeVariableName = 0;
+  };
 
-        return anIncrediblyLargeVariableName;
+  window.BAnIncrediblyLargeClassName = BAnIncrediblyLargeClassName;
 
-    };
-
-    window.BAnIncrediblyLargeClassName = BAnIncrediblyLargeClassName;
-
-})(window, jQuery);
+})(window);
