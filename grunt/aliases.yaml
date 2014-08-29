@@ -1,8 +1,5 @@
 default:
   - 'watch'
 
-test:
-  - 'yslow'
-
 optimization:
   - 'imagemin'
