@@ -4,6 +4,7 @@
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-concat": "latest",
+    "grunt-contrib-imagemin": "^0.8.1",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
