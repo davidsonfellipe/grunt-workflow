@@ -3,6 +3,7 @@
   "author": "Your Name <you.name@example.org>",
   "devDependencies": {
     "grunt": "latest",
+    "grunt-concurrent": "^0.5.0",
     "grunt-contrib-concat": "latest",
     "grunt-contrib-imagemin": "^0.8.1",
     "grunt-contrib-jshint": "^0.10.0",
