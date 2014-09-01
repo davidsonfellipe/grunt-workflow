@@ -3,6 +3,7 @@ default:
 
 lint:
   - 'concurrent:lint'
+  - 'complexity'
 
 optim:
   - 'imagemin'
