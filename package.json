@@ -14,5 +14,8 @@
     "grunt-newer": "latest",
     "load-grunt-config": "latest",
     "time-grunt": "latest"
+  },
+  "dependencies": {
+    "grunt-complexity": "^0.2.0"
   }
 }
