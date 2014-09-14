@@ -9,10 +9,7 @@ This is a DEMO for you start your project using Grunt, and currently watching an
 
 ##package.json
 
-if you're working in a mature project, can be not safe set version as 'latest',
-please set one specific version to avoid breaking changes in your dependencies
-before upgrading.
-
+if you're working in a mature project, can be not safe define version equal to 'latest', in this case, define one specific version to avoid breaking changes.
 
 ```javascript
 {
