@@ -34,6 +34,7 @@ Structure:
 |   └── img/ (all imgs files)
 |   └── js/ (all js files)
 |   └── scss/ (all scss files)
+|   └── less/ (all less files)
 └── .csslintrc
 └── .editorconfig
 └── .gitignore
