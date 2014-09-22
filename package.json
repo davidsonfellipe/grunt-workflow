@@ -7,6 +7,7 @@
     "grunt-contrib-concat": "latest",
     "grunt-contrib-copy": "^0.6.0",
     "grunt-contrib-csslint": "latest",
+    "grunt-contrib-htmlmin": "^0.3.0",
     "grunt-contrib-imagemin": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-less": "latest",
