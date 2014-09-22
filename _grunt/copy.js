@@ -1,7 +1,7 @@
 module.exports = {
   main: {
     expand: true,
-    src: '<%= path.src %>index.html',
+    src: '<%= path.src %>robots.txt',
     dest: '<%= path.dest %>',
     flatten: true,
     filter: 'isFile'
