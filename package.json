@@ -5,9 +5,9 @@
     "grunt": "latest",
     "grunt-concurrent": "latest",
     "grunt-contrib-concat": "latest",
-    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-copy": "latest",
     "grunt-contrib-csslint": "latest",
-    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-htmlmin": "latest",
     "grunt-contrib-imagemin": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-less": "latest",
@@ -19,6 +19,6 @@
     "time-grunt": "latest"
   },
   "dependencies": {
-    "grunt-complexity": "^0.2.0"
+    "grunt-complexity": "latest"
   }
 }
