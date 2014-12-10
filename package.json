@@ -5,6 +5,7 @@
     "grunt": "latest",
     "grunt-concurrent": "latest",
     "grunt-contrib-concat": "latest",
+    "grunt-contrib-connect": "latest",
     "grunt-contrib-copy": "latest",
     "grunt-contrib-csslint": "latest",
     "grunt-contrib-htmlmin": "latest",
